@@ -1,0 +1,20 @@
+# Variables de entorno en cualquier lado
+.env
+*.env
+.env.*
+
+# Dependencias de Node (Backend y Frontend)
+node_modules/
+*/node_modules/
+
+# Compilación de Rust (Backend)
+target/
+backend/target/
+
+# Compilación de Next.js / Vercel (Frontend)
+.next/
+frontend/.next/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
